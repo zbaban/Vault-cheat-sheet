@@ -6,6 +6,7 @@
 ```
 disable_mlock = true
 ui            = true
+log_level     = "trace"
 
 listener "tcp" {
   address     = "127.0.0.1:8200"
